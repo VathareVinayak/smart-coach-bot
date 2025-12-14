@@ -8,7 +8,10 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - fitness_coach
+  - ask_fitness      
+  - ask_match_prep   
+  - ask_motivation
+
 
 responses:
   utter_greet:
@@ -30,19 +33,15 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
-
-
-
-
+  
   utter_fitness_tip:
-    - text: "Consistency is key. Focus on daily mobility, endurance, and recovery."
+  - text: "Consistency matters. Focus on daily fitness, recovery, and discipline."
 
   utter_match_prep:
-    - text: "Prepare mentally, analyze your opponent, and trust your training."
+  - text: "Prepare mentally, analyze your opponent, and trust your training."
 
   utter_motivation:
-    - text: "Progress matters more than perfection. Stay disciplined."
-
+  - text: "Progress over perfection. Stay consistent and believe in the process."
 
 
 session_config:

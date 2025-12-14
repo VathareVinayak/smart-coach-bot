@@ -2,12 +2,27 @@ version: "3.1"
 
 rules:
 
-- rule: Say goodbye anytime the user says goodbye
+- rule: Give fitness tips
+  steps:
+  - intent: ask_fitness
+  - action: utter_fitness_tip
+
+- rule: Give match preparation tips
+  steps:
+  - intent: ask_match_prep
+  - action: utter_match_prep
+
+- rule: Give motivation
+  steps:
+  - intent: ask_motivation
+  - action: utter_motivation
+
+- rule: Say goodbye anytime
   steps:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: Bot challenge
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
