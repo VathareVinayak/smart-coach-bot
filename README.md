@@ -1,4 +1,3 @@
-````md
 # Smart Sports Coach Chatbot 🤖🏏
 
 A minimal Rasa-based conversational AI project inspired by AI-powered sports coaching platforms such as Sherlock SuperCoach.
